@@ -157,12 +157,15 @@ class ShopDialog(ui.ScriptWindow):
 		isMainPlayerPrivateShop = False
 
 		import chr
-		if chr.IsNPC(vid):
+		if vid == 0:
+			isPrivateShop = False
+			isMainPlayerPrivateShop = False
+		elif chr.IsNPC(vid):
 			isPrivateShop = False
 		else:
 			isPrivateShop = True
 
-		if player.IsMainCharacterIndex(vid):
+		if vid != 0 and player.IsMainCharacterIndex(vid):
 
 			isMainPlayerPrivateShop = True
 
