@@ -726,7 +726,8 @@ class EditLine(TextLine):
 			ime.SetNumberMode()
 		else:
 			ime.SetStringMode()
-		ime.SetSecretMode(self.secretMode)
+		if hasattr(ime, 'SetSecretMode'):
+			ime.SetSecretMode(self.secretMode)
 		ime.EnableCaptureInput()
 		if self.useIME:
 			ime.EnableIME()
@@ -740,7 +741,8 @@ class EditLine(TextLine):
 		self.OnIMECloseReadingWnd()
 		ime.DisableIME()
 		ime.DisableCaptureInput()
-		ime.SetSecretMode(0)
+		if hasattr(ime, 'SetSecretMode'):
+			ime.SetSecretMode(0)
 		wndMgr.HideCursor(self.hWnd)
 
 	def OnIMEOpenCandidateList(self):

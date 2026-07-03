@@ -641,7 +641,7 @@ class AffectShower(ui.Window):
 		chr.AFFECT_PABEOP : ("SKILL_PABEOP", "d:/ymir work/ui/skill/sura/pabeop_03.sub"),
 		chr.AFFECT_FALLEN_CHEONGEUN : ("SKILL_CHEONGEUN", "d:/ymir work/ui/skill/warrior/cheongeun_03.sub"),
 		# MR-16: Added AFFECT_FIRE to Affects Shower
-		chr.AFFECT_FIRE : ("SKILL_FIRE", "d:/ymir work/ui/skill/sura/hwayeom_03.sub"),
+		# chr.AFFECT_FIRE : ("SKILL_FIRE", "d:/ymir work/ui/skill/sura/hwayeom_03.sub"),
 		# MR-16: -- END OF -- Added AFFECT_FIRE to Affects Shower
 		chr.AFFECT_CHINA_FIREWORK : ("SKILL_POWERFUL_STRIKE", "d:/ymir work/ui/skill/common/affect/powerfulstrike.sub"),
 		chr.NEW_AFFECT_EXP_BONUS : ("TOOLTIP_MALL_EXPBONUS_STATIC", "d:/ymir work/ui/skill/common/affect/exp_bonus.sub"),

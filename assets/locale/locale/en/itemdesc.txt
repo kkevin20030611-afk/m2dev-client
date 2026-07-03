@@ -2142,7 +2142,7 @@
 72314		
 72501	Experience Ring (iCafe)	Increases collection of experience points by 20% in the membership iCafe.
 72502	Thief's Glove (iCafe)	Chance of items being dropped increases by 1.5 times in Membership iCafe.
-72701	Wind Shoes	Increases your movement speed by 30 when equipped.
+72701	Wind Shoes	Increases movement speed while equipped. (+60 Movement Speed)
 72703	Tiger Bone Earring	Your attack value will be increased by 200 points for 2 hours (time only counts down while the item is being worn). The item is not tradeable.
 72704	Dragon Bone Earring	Your defence value will be increased by 200 points for 2 hours (time only counts down while the item is being worn). The item is not tradeable.
 72705	Tiger Bone Bracelet	The damage your skills inflict will be increased by 15% for 2 hours (time only counts down while the item is being worn). The item is not tradeable.
@@ -2406,3 +2406,4 @@
 90011	Trunk	Building Material for the Guild Building
 90012	Plywood	Building Material for the Guild Building
 90013		
+40002	Warp Ring	A magical ring that allows you to teleport anywhere. Teleportation is completely free and unlimited.

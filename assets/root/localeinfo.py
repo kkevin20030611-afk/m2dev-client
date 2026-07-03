@@ -453,6 +453,8 @@ def SecondToHM(time):
 
 # Convert seconds to Days-Hours-Minutes-Seconds in real time
 def RTSecondToDHMS(time):
+	if time > 3000000000:
+		return "|cFF00FF00Permanent|r"
 	text = ""
 
 	d = time // (24 * 3600)

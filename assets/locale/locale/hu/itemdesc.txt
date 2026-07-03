@@ -2142,7 +2142,7 @@
 72314		
 72501	Tapasztalat gyűrű(iCafe)	Növeli a tapasztalatszerzést 20%-kal a tag iCafe-ban.
 72502	Tolvaj kesztyű (iCafe)	Másfélszerezi esélyed tárgyak zsákmányolására a tag iCafe-ban.
-72701	Szélcipő	30-cal növeli mozgási sebességed addig, amíg fel van szerelve.
+72701	Wind Shoes	Increases movement speed while equipped. Duration: Infinite. |cFF00FF00+60 Movement Speed|r
 72703	Tigriscsont fülbevaló	Támadóértéked megnövekszik 200 ponttal 2 órán át (az idő csak akkor telik, ha viselik a tárgyat). A tárgy nem adható át.
 72704	Sárkánycsont fülbevaló	Védelmi értéked megnövekszik 200 ponttal 2 órán át (az idő csak akkor telik, ha viselik a tárgyat). A tárgy nem adható át.
 72705	Tigriscsont karkötő	A készségeid 15%-kal több kárt okoznak 2 órán át (az idő csak akkor telik, ha viselik a tárgyat). A tárgy nem adható át.

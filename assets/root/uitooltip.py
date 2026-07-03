@@ -1012,6 +1012,13 @@ class ItemToolTip(ToolTip):
 
 				self.ShowToolTip()
 			return
+		elif 50052 == itemVnum:
+			self.__SetNormalItemTitle()
+			self.AppendDescription(item.GetItemDescription())
+			self.AppendSpace(5)
+			self.AppendTextLine("Does not provide any bonus stats.", self.NEGATIVE_COLOR)
+			self.ShowToolTip()
+			return
 		###########################################################################################
 
 
